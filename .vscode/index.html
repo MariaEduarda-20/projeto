@@ -1,13 +1,15 @@
-<!DOCTYPE html>
-<html lang="pt-br" class="light">
+ <!DOCTYPE html>
+<html lang="pt-br">
   <head>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
       rel="stylesheet"
     />
+
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GoldenPerfect</title>
     <link rel="stylesheet" href="style.css" />
@@ -17,28 +19,33 @@
       <div id="profile">
         <img
           src="./assets/golden_retriever-p.webp"
-          alt="foto de um golden retriver"
+          alt="Foto de um cachorro Golden com a língua para fora,fundo verde."
         />
-        <p>@goldenretriever</p>
+        <p>@GoldenPerfect</p>
       </div>
-      <div id="switch">
-        <button>
-          <div id="switch" onclick="toggleMode()"></div>
-        </button>
+
+      <div id="switch" onclick="toggleMode()">
+        <button></button>
         <span></span>
       </div>
+
       <ul>
         <li>
           <a href="#">Ver fotos</a>
         </li>
+
         <li>
           <a href="#">Localização</a>
         </li>
+
         <li>
           <a href="https://www.perfectgolden.com.br">Ir para o site</a>
         </li>
+
         <li>
-          <a href="https://www.whatshapp.com" target="_blank">WhatsApp</a>
+          <a href="https://www.whatshapp.com" target="_blank"
+            >Contato</a
+          >
         </li>
       </ul>
       <div id="social-links">
@@ -53,21 +60,26 @@
         <a href="https://googlemaps.com" target="_blank">
           <ion-icon name="navigate-outline"></ion-icon>
         </a>
+
         <a href="https://perfectgolden.com.br" target="_blank">
           <ion-icon name="arrow-undo-outline"></ion-icon>
         </a>
       </div>
 
       <footer>
-        Layout Mobile <a href="https://rocketseat.com.br/">Rocketseat</a>
+        Feito com ♥ pela <a href="https://rocketseat.com.br/">Rocketseat</a>
       </footer>
     </div>
 
     <script
       type="module"
-      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
 
     <script src="./script.js"></script>
   </body>
-
+</html>
